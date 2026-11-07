@@ -1,6 +1,6 @@
 # NAME: AI
 # UPDATED: 2026-11-07
-# TOTAL: 136
+# TOTAL: 138
 # Policy is supplied by the parent RULE-SET reference.
 # Shared compatibility entries also affect non-AI traffic to the same hosts.
 # Based on the existing personal configuration and iab0x00/ProxyRules AI.txt.
@@ -142,6 +142,8 @@ DOMAIN-KEYWORD,notebooklm.google
 DOMAIN-KEYWORD,labs.google
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,codex
 
 # > OpenAI voice IP snapshot; preserve no-resolve
 IP-CIDR,102.37.57.54/32,no-resolve
